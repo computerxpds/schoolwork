@@ -2,7 +2,7 @@
  * A simple java calculator.
  * @author Dakota Strickner (computerxpds)
  * @version 1
- * @build 8
+ * @build 10
  * This very arcain and simple calculator will be able to do 2 variable operations. 
  */
 //import
@@ -15,7 +15,7 @@ public class simplecalc{
     public static void main(String[] args){
         boolean go = true;
         {
-            System.out.println("This is my crappy calculator!");
+            System.out.println("This is my crappy calculator! Enter a, b, c, or d, a is addition b is subtraction c is multiplication and d is division");
             
             Scanner scan = new Scanner(System.in);
             Scanner scan1 = new Scanner(System.in);
