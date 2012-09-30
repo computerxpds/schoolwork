@@ -32,6 +32,15 @@ public class simplecalc{
                 int add3 = add1 + add2;
                 System.out.println(add1 + " added to " + add2 + " equals " + add3 + "!");
             }
+            if("b".equals(action))
+            {
+                System.out.println("Now type in the first number you would like to subtract");
+                int sub1 = scan.nextInt();
+                System.out.println("Now type the second number.");
+                int sub2 = scan.nextInt();
+                int sub3 = sub1 + sub2;
+                System.out.println(sub1 + " subtracted from " + sub2 + " equals " + sub3 + "!");
+            }
     }
 }
 }
