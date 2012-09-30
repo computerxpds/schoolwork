@@ -2,7 +2,7 @@
  * A simple java calculator.
  * @author Dakota Strickner (computerxpds)
  * @version 1
- * @build 5
+ * @build 6
  * This very arcain and simple calculator will be able to do 2 variable operations. 
  */
 //import
@@ -16,6 +16,8 @@ public class simplecalc
     public static void main(String[] args)
     {
         boolean go = true;
+        
+        while(go)
         {
             System.out.println("This is my crappy calculator!");
             
