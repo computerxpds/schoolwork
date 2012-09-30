@@ -16,8 +16,6 @@ public class simplecalc
     public static void main(String[] args)
     {
         boolean go = true;
-        
-        while(go)
         {
             System.out.println("This is my crappy calculator!");
             
