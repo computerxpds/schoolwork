@@ -2,7 +2,7 @@
  * A simple java calculator.
  * @author Dakota Strickner (computerxpds)
  * @version 1
- * @build 7
+ * @build 8
  * This very arcain and simple calculator will be able to do 2 variable operations. 
  */
 //import
