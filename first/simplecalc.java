@@ -2,22 +2,18 @@
  * A simple java calculator.
  * @author Dakota Strickner (computerxpds)
  * @version 1
- * @build 6
+ * @build 7
  * This very arcain and simple calculator will be able to do 2 variable operations. 
  */
 //import
 import java.util.*;
 //define class
-public class simplecalc
-{
+public class simplecalc{
 
     static Scanner console = new Scanner(System.in);
     //main string
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         boolean go = true;
-        
-        while(go)
         {
             System.out.println("This is my crappy calculator!");
             
