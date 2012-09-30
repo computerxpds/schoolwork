@@ -1,8 +1,8 @@
 #BlueJ package file
 package.editor.height=402
 package.editor.width=560
-package.editor.x=2468
-package.editor.y=174
+package.editor.x=1881
+package.editor.y=192
 package.numDependencies=0
 package.numTargets=10
 package.showExtends=true
@@ -68,8 +68,8 @@ target4.x=110
 target4.y=130
 target5.editor.height=700
 target5.editor.width=900
-target5.editor.x=628
-target5.editor.y=126
+target5.editor.x=2068
+target5.editor.y=91
 target5.height=50
 target5.name=simplecalc
 target5.naviview.expanded=true
