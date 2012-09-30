@@ -16,21 +16,28 @@ public class simplecalc
     //main string
     public static void main(String[] args)
     {
-        //variables
-        int firstnumber;
-        int secondnumber;
-        //int multiply;
-        //int divide;
-        //int subtract;
-        //int add;
+        boolean go = true;
         
-        //prints the line
-        System.out.println("Input your variables below:");
-        //inputs from console
-        firstnumber = console.nextInt();
-        secondnumber = console.nextInt();
-        //output and math operation
-        System.out.println("Result: " + (firstnumber + secondnumber));
+        while(go)
+        {
+            System.out.println("This is my crappy calculator!");
+            
+            Scanner scan = new Scanner(System.in);
+            Scanner scan1 = new Scanner(System.in);
+            
+            
+            String action = scan.nextLine();
+            
+            if("a".equals(action))
+            {
+                System.out.println("Now type in the first number you would like to add.");
+                int add1 = scan.nextInt();
+                System.out.println("Now type the second number.");
+                int add2 = scan.nextInt();
+                int add3 = add1 + add2;
+                System.out.println(add1 + " added to " + add2 + " equals " + add3 + "!");
+            }
     }
+}
 }
         
